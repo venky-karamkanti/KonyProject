@@ -1,0 +1,1271 @@
+{
+  "templates": {
+    "a9ef4c301e16457a92f6633b06396d99": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSampleRowTemplate",
+            "kuid": "s24c99f012484d1cab03f5a24c449e01",
+            "wType": "FlexContainer",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "e47534ae2b014ce1a726723e7b8a5726",
+            "wType": "FlexContainer",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\flxSampleRowTemplate.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblRowHeading",
+            "kuid": "s48ed6ba6d2440cd8c1ec7dacb9d4d55",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": [
+              "iphone",
+              "android",
+              "ipad",
+              "tabrcandroid",
+              "desktopweb",
+              "watchos",
+              "androidwearos"
+            ]
+          },
+          "relationInfo": {
+            "kuid": "af228363f0f642d7b87cc7f48569ba15",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblHeading.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblDescription",
+            "kuid": "s8ecd331c5bd417f9d8f56d005b1192d",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "f79e4017d1ee4093ba1cf4db179655c7",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblDescription.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblTimeStamp",
+            "kuid": "sbaf2e59763a42858cc9aa2ebab2f8e0",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "d6bd4f2a225e4ad8924a12b046a584a6",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblTime.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblStrip",
+            "kuid": "s9ba8d8dabc94c9eb88dc10a94fda730",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "c3ca6106642f4591995fa1f8f7d3fe6c",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblStrip.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        }
+      ],
+      "models": {
+        "a9ef4c301e16457a92f6633b06396d99": {
+          "id": "SampleRowTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\SampleRowTemplate.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "a9ef4c301e16457a92f6633b06396d99",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": null
+        },
+        "e47534ae2b014ce1a726723e7b8a5726": {
+          "id": "flxSampleRowTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\flxSampleRowTemplate.json",
+          "wType": "FlexContainer",
+          "name": "kony.ui.FlexContainer",
+          "entityKUID": "a9ef4c301e16457a92f6633b06396d99",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "af228363f0f642d7b87cc7f48569ba15": {
+          "id": "lblHeading",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblHeading.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "a9ef4c301e16457a92f6633b06396d99",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblHeading"
+        },
+        "f79e4017d1ee4093ba1cf4db179655c7": {
+          "id": "lblDescription",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblDescription.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "a9ef4c301e16457a92f6633b06396d99",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblDescription"
+        },
+        "d6bd4f2a225e4ad8924a12b046a584a6": {
+          "id": "lblTime",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblTime.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "a9ef4c301e16457a92f6633b06396d99",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblTime"
+        },
+        "c3ca6106642f4591995fa1f8f7d3fe6c": {
+          "id": "lblStrip",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleRowTemplate.sm\\lblStrip.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "a9ef4c301e16457a92f6633b06396d99",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblStrip"
+        }
+      }
+    },
+    "e941c7f810694033850f99741da8c92a": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSampleSectionHeaderTemplate",
+            "kuid": "s43fab2ca5164cd8b6b331d4d4ba90fe",
+            "wType": "FlexContainer",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "e5f0761e67b54575832a1c15201c1c2e",
+            "wType": "FlexContainer",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleSectionHeaderTemplate.sm\\flxSectionHeaderTemplate.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSectionHeaderLabelSkin",
+            "kuid": "sa5119c3614c462995987f4c534244b0",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": [
+              "iphone",
+              "android",
+              "ipad",
+              "tabrcandroid",
+              "desktopweb",
+              "watchos",
+              "androidwearos"
+            ]
+          },
+          "relationInfo": {
+            "kuid": "j61a6284c50c48d6ac642f132129dc4c",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleSectionHeaderTemplate.sm\\lblHeading.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        }
+      ],
+      "models": {
+        "e941c7f810694033850f99741da8c92a": {
+          "id": "SampleSectionHeaderTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleSectionHeaderTemplate.sm\\SampleSectionHeaderTemplate.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "e941c7f810694033850f99741da8c92a",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": null
+        },
+        "e5f0761e67b54575832a1c15201c1c2e": {
+          "id": "flxSectionHeaderTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleSectionHeaderTemplate.sm\\flxSectionHeaderTemplate.json",
+          "wType": "FlexContainer",
+          "name": "kony.ui.FlexContainer",
+          "entityKUID": "e941c7f810694033850f99741da8c92a",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "j61a6284c50c48d6ac642f132129dc4c": {
+          "id": "lblHeading",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\desktop\\segments\\SampleSectionHeaderTemplate.sm\\lblHeading.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "e941c7f810694033850f99741da8c92a",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblHeading"
+        }
+      }
+    },
+    "h207ebe2663f4dd18eadaca757b59a8e": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSampleRowTemplate",
+            "kuid": "s24c99f012484d1cab03f5a24c449e01",
+            "wType": "FlexContainer",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "bd438a84ad5842bf9b66646ac4257c20",
+            "wType": "FlexContainer",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\flxSampleRowTemplate.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblRowHeading",
+            "kuid": "s48ed6ba6d2440cd8c1ec7dacb9d4d55",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": [
+              "iphone",
+              "android",
+              "ipad",
+              "tabrcandroid",
+              "desktopweb",
+              "watchos",
+              "androidwearos"
+            ]
+          },
+          "relationInfo": {
+            "kuid": "bf5e7fcef6da40d8b85de97d16da9479",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblHeading.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblDescription",
+            "kuid": "s8ecd331c5bd417f9d8f56d005b1192d",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "jf3c4411b78e43f0b055ee7bbcb55b25",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblDescription.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblTimeStamp",
+            "kuid": "sbaf2e59763a42858cc9aa2ebab2f8e0",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "hd02a7830f8e438c985d8af578d12da1",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblTime.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblStrip",
+            "kuid": "s9ba8d8dabc94c9eb88dc10a94fda730",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "f3e8346c78244204aea7bed232c25abe",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblStrip.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        }
+      ],
+      "models": {
+        "h207ebe2663f4dd18eadaca757b59a8e": {
+          "id": "SampleRowTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\SampleRowTemplate.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "h207ebe2663f4dd18eadaca757b59a8e",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": null
+        },
+        "bd438a84ad5842bf9b66646ac4257c20": {
+          "id": "flxSampleRowTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\flxSampleRowTemplate.json",
+          "wType": "FlexContainer",
+          "name": "kony.ui.FlexContainer",
+          "entityKUID": "h207ebe2663f4dd18eadaca757b59a8e",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "bf5e7fcef6da40d8b85de97d16da9479": {
+          "id": "lblHeading",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblHeading.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "h207ebe2663f4dd18eadaca757b59a8e",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblHeading"
+        },
+        "jf3c4411b78e43f0b055ee7bbcb55b25": {
+          "id": "lblDescription",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblDescription.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "h207ebe2663f4dd18eadaca757b59a8e",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblDescription"
+        },
+        "hd02a7830f8e438c985d8af578d12da1": {
+          "id": "lblTime",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblTime.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "h207ebe2663f4dd18eadaca757b59a8e",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblTime"
+        },
+        "f3e8346c78244204aea7bed232c25abe": {
+          "id": "lblStrip",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleRowTemplate.sm\\lblStrip.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "h207ebe2663f4dd18eadaca757b59a8e",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblStrip"
+        }
+      }
+    },
+    "fcf7c9e415bd456da113d428ce609e09": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSampleSectionHeaderTemplate",
+            "kuid": "s43fab2ca5164cd8b6b331d4d4ba90fe",
+            "wType": "FlexContainer",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "fb01ec7847c746139bc6086d16ba5ecf",
+            "wType": "FlexContainer",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleSectionHeaderTemplate.sm\\flxSectionHeaderTemplate.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSectionHeaderLabelSkin",
+            "kuid": "sa5119c3614c462995987f4c534244b0",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": [
+              "iphone",
+              "android",
+              "ipad",
+              "tabrcandroid",
+              "desktopweb",
+              "watchos",
+              "androidwearos"
+            ]
+          },
+          "relationInfo": {
+            "kuid": "b5f8249848c048ceb4dde9fbeab1ff5d",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleSectionHeaderTemplate.sm\\lblHeading.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        }
+      ],
+      "models": {
+        "fcf7c9e415bd456da113d428ce609e09": {
+          "id": "SampleSectionHeaderTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleSectionHeaderTemplate.sm\\SampleSectionHeaderTemplate.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "fcf7c9e415bd456da113d428ce609e09",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": null
+        },
+        "fb01ec7847c746139bc6086d16ba5ecf": {
+          "id": "flxSectionHeaderTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleSectionHeaderTemplate.sm\\flxSectionHeaderTemplate.json",
+          "wType": "FlexContainer",
+          "name": "kony.ui.FlexContainer",
+          "entityKUID": "fcf7c9e415bd456da113d428ce609e09",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "b5f8249848c048ceb4dde9fbeab1ff5d": {
+          "id": "lblHeading",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\mobile\\segments\\SampleSectionHeaderTemplate.sm\\lblHeading.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "fcf7c9e415bd456da113d428ce609e09",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblHeading"
+        }
+      }
+    },
+    "abf173bdada240b49f983f90b86e21c9": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSampleRowTemplate",
+            "kuid": "s24c99f012484d1cab03f5a24c449e01",
+            "wType": "FlexContainer",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "da6b554b90fd47ad8d6b32e3d3791515",
+            "wType": "FlexContainer",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\flxSampleRowTemplate.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblRowHeading",
+            "kuid": "s48ed6ba6d2440cd8c1ec7dacb9d4d55",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": [
+              "iphone",
+              "android",
+              "ipad",
+              "tabrcandroid",
+              "desktopweb",
+              "watchos",
+              "androidwearos"
+            ]
+          },
+          "relationInfo": {
+            "kuid": "bebef571b0764b2b8198868aa5cf7dcf",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblHeading.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblDescription",
+            "kuid": "s8ecd331c5bd417f9d8f56d005b1192d",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "e94566f11aab4eeeb0c97721cd7f5d46",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblDescription.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblTimeStamp",
+            "kuid": "sbaf2e59763a42858cc9aa2ebab2f8e0",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "e0aabd7dd73242a3b4b13142381ed589",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblTime.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknLblStrip",
+            "kuid": "s9ba8d8dabc94c9eb88dc10a94fda730",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "d8c929e3c9994f6caafa3da77c335121",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblStrip.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        }
+      ],
+      "models": {
+        "abf173bdada240b49f983f90b86e21c9": {
+          "id": "SampleRowTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\SampleRowTemplate.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "abf173bdada240b49f983f90b86e21c9",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": null
+        },
+        "da6b554b90fd47ad8d6b32e3d3791515": {
+          "id": "flxSampleRowTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\flxSampleRowTemplate.json",
+          "wType": "FlexContainer",
+          "name": "kony.ui.FlexContainer",
+          "entityKUID": "abf173bdada240b49f983f90b86e21c9",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "bebef571b0764b2b8198868aa5cf7dcf": {
+          "id": "lblHeading",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblHeading.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "abf173bdada240b49f983f90b86e21c9",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblHeading"
+        },
+        "e94566f11aab4eeeb0c97721cd7f5d46": {
+          "id": "lblDescription",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblDescription.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "abf173bdada240b49f983f90b86e21c9",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblDescription"
+        },
+        "e0aabd7dd73242a3b4b13142381ed589": {
+          "id": "lblTime",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblTime.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "abf173bdada240b49f983f90b86e21c9",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblTime"
+        },
+        "d8c929e3c9994f6caafa3da77c335121": {
+          "id": "lblStrip",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleRowTemplate.sm\\lblStrip.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "abf173bdada240b49f983f90b86e21c9",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblStrip"
+        }
+      }
+    },
+    "fec2e31fbfae475b93de7100f70e978a": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSampleSectionHeaderTemplate",
+            "kuid": "s43fab2ca5164cd8b6b331d4d4ba90fe",
+            "wType": "FlexContainer",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "a930a385e5114a26a89b0f4b895d6568",
+            "wType": "FlexContainer",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleSectionHeaderTemplate.sm\\flxSectionHeaderTemplate.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "sknSectionHeaderLabelSkin",
+            "kuid": "sa5119c3614c462995987f4c534244b0",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": false,
+            "forkedPlatforms": [
+              "iphone",
+              "android",
+              "ipad",
+              "tabrcandroid",
+              "desktopweb",
+              "watchos",
+              "androidwearos"
+            ]
+          },
+          "relationInfo": {
+            "kuid": "d211f52a7fe94253ad746781b5f5f52d",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleSectionHeaderTemplate.sm\\lblHeading.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        }
+      ],
+      "models": {
+        "fec2e31fbfae475b93de7100f70e978a": {
+          "id": "SampleSectionHeaderTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleSectionHeaderTemplate.sm\\SampleSectionHeaderTemplate.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "fec2e31fbfae475b93de7100f70e978a",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": null
+        },
+        "a930a385e5114a26a89b0f4b895d6568": {
+          "id": "flxSectionHeaderTemplate",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleSectionHeaderTemplate.sm\\flxSectionHeaderTemplate.json",
+          "wType": "FlexContainer",
+          "name": "kony.ui.FlexContainer",
+          "entityKUID": "fec2e31fbfae475b93de7100f70e978a",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "d211f52a7fe94253ad746781b5f5f52d": {
+          "id": "lblHeading",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\templates\\tablet\\segments\\SampleSectionHeaderTemplate.sm\\lblHeading.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "fec2e31fbfae475b93de7100f70e978a",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblHeading"
+        }
+      }
+    }
+  },
+  "userwidgets": {},
+  "forms": {
+    "a4373e0e5f04434e867e834c2ce6c6ed": {
+      "dependencies": [
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "slForm",
+            "kuid": "s0076e29939b45168f1d5035a567a1c7",
+            "wType": "Form",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "wType": "Form",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "slTitleBar",
+            "kuid": "s9a53526c37f40639d5c38488354a973",
+            "wType": "TitleBar",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "wType": "Form",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+            "keyPath": [
+              "titleBarSkin"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "defTextBoxNormal",
+            "kuid": "scb37b334c3f4e4db2cd808f0bf54ab4",
+            "wType": "TextField",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "da047bdb89be41019fa34d27cad4daeb",
+            "wType": "TextField",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\txtName.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "defTextBoxFocus",
+            "kuid": "s7a1a467290241c1be9a47c4cd95e309",
+            "wType": "TextField",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "da047bdb89be41019fa34d27cad4daeb",
+            "wType": "TextField",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\txtName.json",
+            "keyPath": [
+              "focusskin"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "defTextBoxPlaceholder",
+            "kuid": "s8d36dda3465484090b63e2846dda9eb",
+            "wType": "TextField",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "da047bdb89be41019fa34d27cad4daeb",
+            "wType": "TextField",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\txtName.json",
+            "keyPath": [
+              "placeholderskin"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "defLabel",
+            "kuid": "s2720e4cd89a4d86966e6863d2af6480",
+            "wType": "Label",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "cb6851052f984ecf901606de9e57023a",
+            "wType": "Label",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\lblName.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "defBtnNormal",
+            "kuid": "s8a77ff7ab4b41ea84721eb08ce6e079",
+            "wType": "Button",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "g4b93a689ee640dd87550ca2df4ae880",
+            "wType": "Button",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\submit.json",
+            "keyPath": [
+              "_skin_"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "type": "kskin",
+            "id": "defBtnFocus",
+            "kuid": "sb1c5cb063ef4c1e92d15df1a2f78a60",
+            "wType": "Button",
+            "theme": "defaultTheme",
+            "isDefaultSkin": true,
+            "forkedPlatforms": []
+          },
+          "relationInfo": {
+            "kuid": "g4b93a689ee640dd87550ca2df4ae880",
+            "wType": "Button",
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\submit.json",
+            "keyPath": [
+              "focusskin"
+            ]
+          }
+        },
+        {
+          "dependency": {
+            "channel": "desktop",
+            "id": "AS_Button_g9301635410e4d2a9d352bf8d22e76d6",
+            "kuid": "AS_Button_g9301635410e4d2a9d352bf8d22e76d6",
+            "name": "AS_Button_g9301635410e4d2a9d352bf8d22e76d6",
+            "path": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\studioactions\\desktop\\AS_Button_g9301635410e4d2a9d352bf8d22e76d6.json",
+            "type": "actions"
+          },
+          "relationInfo": {
+            "keyInModel": "ide_onClick",
+            "kuid": "g4b93a689ee640dd87550ca2df4ae880",
+            "isPSP": false,
+            "keyPath": [
+              "ide_onClick"
+            ],
+            "channel": "desktop",
+            "wType": "Button",
+            "parentItem": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "hasController": true
+          }
+        },
+        {
+          "dependency": {
+            "channel": "desktop",
+            "id": "AS_Button_c89f5c3082b442ecbef285e3c342f658",
+            "kuid": "AS_Button_c89f5c3082b442ecbef285e3c342f658",
+            "name": "AS_Button_c89f5c3082b442ecbef285e3c342f658",
+            "path": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\studioactions\\desktop\\AS_Button_c89f5c3082b442ecbef285e3c342f658.json",
+            "type": "actions"
+          },
+          "relationInfo": {
+            "keyInModel": "ide_onTouchStart",
+            "kuid": "g4b93a689ee640dd87550ca2df4ae880",
+            "isPSP": false,
+            "keyPath": [
+              "ide_onTouchStart"
+            ],
+            "channel": "desktop",
+            "wType": "Button",
+            "parentItem": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "hasController": true
+          }
+        }
+      ],
+      "models": {
+        "a4373e0e5f04434e867e834c2ce6c6ed": {
+          "id": "Form1",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+          "wType": "Form",
+          "name": "kony.ui.Form2",
+          "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+          "layoutType": 2,
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view"
+        },
+        "da047bdb89be41019fa34d27cad4daeb": {
+          "id": "txtName",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\txtName.json",
+          "wType": "TextField",
+          "name": "kony.ui.TextBox2",
+          "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.txtName"
+        },
+        "cb6851052f984ecf901606de9e57023a": {
+          "id": "lblName",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\lblName.json",
+          "wType": "Label",
+          "name": "kony.ui.Label",
+          "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.lblName"
+        },
+        "g4b93a689ee640dd87550ca2df4ae880": {
+          "id": "submit",
+          "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\submit.json",
+          "wType": "Button",
+          "name": "kony.ui.Button",
+          "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+          "isUDWInstanceModel": false,
+          "isRealChildOfTargetContainer": false,
+          "runtimePath": "this.view.submit"
+        }
+      }
+    }
+  },
+  "glances": {},
+  "notifications": {},
+  "skins": {
+    "s8ecd331c5bd417f9d8f56d005b1192d": {
+      "dependencies": []
+    },
+    "s48ed6ba6d2440cd8c1ec7dacb9d4d55": {
+      "dependencies": []
+    },
+    "s9ba8d8dabc94c9eb88dc10a94fda730": {
+      "dependencies": []
+    },
+    "sbaf2e59763a42858cc9aa2ebab2f8e0": {
+      "dependencies": []
+    },
+    "s24c99f012484d1cab03f5a24c449e01": {
+      "dependencies": []
+    },
+    "s43fab2ca5164cd8b6b331d4d4ba90fe": {
+      "dependencies": []
+    },
+    "sa5119c3614c462995987f4c534244b0": {
+      "dependencies": []
+    },
+    "s5d79b96d8f048ceb91614014c518832": {
+      "dependencies": []
+    },
+    "s0076e29939b45168f1d5035a567a1c7": {
+      "dependencies": []
+    },
+    "s15cfa68934e4740b25812b8239e83b7": {
+      "dependencies": []
+    },
+    "s1c5e0ac6c31469b806bf0653d373bd4": {
+      "dependencies": []
+    },
+    "s9a53526c37f40639d5c38488354a973": {
+      "dependencies": []
+    },
+    "sa417e2b24774512b2b62c635cf04643": {
+      "dependencies": []
+    },
+    "scb37b334c3f4e4db2cd808f0bf54ab4": {
+      "dependencies": []
+    },
+    "s7a1a467290241c1be9a47c4cd95e309": {
+      "dependencies": []
+    },
+    "s8d36dda3465484090b63e2846dda9eb": {
+      "dependencies": []
+    },
+    "s2720e4cd89a4d86966e6863d2af6480": {
+      "dependencies": []
+    },
+    "s8a77ff7ab4b41ea84721eb08ce6e079": {
+      "dependencies": []
+    },
+    "sb1c5cb063ef4c1e92d15df1a2f78a60": {
+      "dependencies": []
+    }
+  },
+  "actions": {
+    "AS_Button_g9301635410e4d2a9d352bf8d22e76d6": {
+      "dependencies": [
+        {
+          "dependency": {
+            "id": "Form1",
+            "kuid": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "type": "kform",
+            "path": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+            "dirPath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm",
+            "directoryName": "Form1",
+            "children": 3,
+            "currentLocale": "default",
+            "canvasWidth": 1200,
+            "platform": "desktopweb",
+            "prevPlatform": "desktopweb",
+            "device": "desktopweb",
+            "prevDevice": "desktopweb",
+            "breakpointInfo": {
+              "b1": {
+                "width": 1366
+              },
+              "b2": {
+                "width": 1024
+              },
+              "b3": {
+                "width": 640
+              }
+            },
+            "models": {
+              "a4373e0e5f04434e867e834c2ce6c6ed": {
+                "id": "Form1",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+                "wType": "Form",
+                "name": "kony.ui.Form2",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "layoutType": 2,
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view"
+              },
+              "da047bdb89be41019fa34d27cad4daeb": {
+                "id": "txtName",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\txtName.json",
+                "wType": "TextField",
+                "name": "kony.ui.TextBox2",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view.txtName"
+              },
+              "cb6851052f984ecf901606de9e57023a": {
+                "id": "lblName",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\lblName.json",
+                "wType": "Label",
+                "name": "kony.ui.Label",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view.lblName"
+              },
+              "g4b93a689ee640dd87550ca2df4ae880": {
+                "id": "submit",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\submit.json",
+                "wType": "Button",
+                "name": "kony.ui.Button",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view.submit"
+              }
+            },
+            "channel": "desktop",
+            "wType": "Form",
+            "layoutType": 2,
+            "controllerInfo": {
+              "default": {
+                "channel": "desktop",
+                "fileType": "js",
+                "name": "Form1Controller"
+              }
+            },
+            "generatedTemplates": [],
+            "friendlyName": "",
+            "defaultControllerPath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\controllers\\desktop\\Form1Controller\\Form1ControllerActions.js"
+          },
+          "relationInfo": {
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\studioactions\\desktop\\AS_Button_g9301635410e4d2a9d352bf8d22e76d6.json",
+            "keyPath": [
+              "AS_Button_g9301635410e4d2a9d352bf8d22e76d6",
+              "contextObj",
+              "KUID"
+            ],
+            "matchedValue": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "model": false
+          }
+        }
+      ]
+    },
+    "AS_Button_c89f5c3082b442ecbef285e3c342f658": {
+      "dependencies": [
+        {
+          "dependency": {
+            "id": "Form1",
+            "kuid": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "type": "kform",
+            "path": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+            "dirPath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm",
+            "directoryName": "Form1",
+            "children": 3,
+            "currentLocale": "default",
+            "canvasWidth": 1200,
+            "platform": "desktopweb",
+            "prevPlatform": "desktopweb",
+            "device": "desktopweb",
+            "prevDevice": "desktopweb",
+            "breakpointInfo": {
+              "b1": {
+                "width": 1366
+              },
+              "b2": {
+                "width": 1024
+              },
+              "b3": {
+                "width": 640
+              }
+            },
+            "models": {
+              "a4373e0e5f04434e867e834c2ce6c6ed": {
+                "id": "Form1",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\Form1.json",
+                "wType": "Form",
+                "name": "kony.ui.Form2",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "layoutType": 2,
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view"
+              },
+              "da047bdb89be41019fa34d27cad4daeb": {
+                "id": "txtName",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\txtName.json",
+                "wType": "TextField",
+                "name": "kony.ui.TextBox2",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view.txtName"
+              },
+              "cb6851052f984ecf901606de9e57023a": {
+                "id": "lblName",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\lblName.json",
+                "wType": "Label",
+                "name": "kony.ui.Label",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view.lblName"
+              },
+              "g4b93a689ee640dd87550ca2df4ae880": {
+                "id": "submit",
+                "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\forms\\desktop\\Form1.sm\\submit.json",
+                "wType": "Button",
+                "name": "kony.ui.Button",
+                "entityKUID": "a4373e0e5f04434e867e834c2ce6c6ed",
+                "isUDWInstanceModel": false,
+                "isRealChildOfTargetContainer": false,
+                "runtimePath": "this.view.submit"
+              }
+            },
+            "channel": "desktop",
+            "wType": "Form",
+            "layoutType": 2,
+            "controllerInfo": {
+              "default": {
+                "channel": "desktop",
+                "fileType": "js",
+                "name": "Form1Controller"
+              }
+            },
+            "generatedTemplates": [],
+            "friendlyName": "",
+            "defaultControllerPath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\controllers\\desktop\\Form1Controller\\Form1ControllerActions.js"
+          },
+          "relationInfo": {
+            "filePath": "C:\\Users\\k.venkatesh\\Visualizer\\workspace\\WEBAPP1\\studioactions\\desktop\\AS_Button_c89f5c3082b442ecbef285e3c342f658.json",
+            "keyPath": [
+              "AS_Button_c89f5c3082b442ecbef285e3c342f658",
+              "contextObj",
+              "KUID"
+            ],
+            "matchedValue": "a4373e0e5f04434e867e834c2ce6c6ed",
+            "model": false
+          }
+        }
+      ]
+    }
+  },
+  "starteractions": {},
+  "customwidgets": {},
+  "constants": {}
+}

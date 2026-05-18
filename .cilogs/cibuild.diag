@@ -1,0 +1,29 @@
+Date/Time: Mon May 11 2026 15:30:55 GMT+0530 (India Standard Time)
+OS Version: Windows_NT 10.0.26100
+Architecture: x64
+
+CI Display version: 202601.0.0
+node version: v22.22.2
+
+Ant Home: C:\Users\k.venkatesh\Visualizerrr\Ant
+Java Home: C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\
+Android Home: undefined
+
+Java Version: openjdk version "17.0.19" 2026-04-21
+OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10)
+OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)
+NPM version: 10.9.7
+Ant version: Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Gradle version: undefined
+Xcode version: undefined
+Finalizer version: undefined
+
+Plugin List: com.kony.desktopweb_202601.0.0.v202510291342.jar
+com.kony.mobile.fabric.client.sdk_202601.0.0.v202510291253.jar
+com.kony.referencearchitecture_202601.0.0.v202510211214.jar
+com.kony.studio.viz.core.win64_202601.0.0.v202510292207.jar
+com.kony.webcommons_25.0.0.202502131950.jar
+com.pat.tool.keditor_25.0.0.v202502171944.jar
+pluginversion.json
+Build Error: undefined
+

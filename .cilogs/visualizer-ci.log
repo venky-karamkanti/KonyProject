@@ -1,0 +1,234 @@
+[2026-05-11T15:30:55.303] [INFO] ci - 
+ 
+        -------------------------------
+               Kony CI v202601.0.0
+        -------------------------------
+         node version: v22.22.2
+
+[2026-05-11T15:30:56.605] [DEBUG] ci -  ➠ Pre-build validations
+[2026-05-11T15:30:56.606] [INFO] ci - ✓ ANT_HOME
+[2026-05-11T15:30:56.608] [INFO] ci - ✓ ant version
+[2026-05-11T15:30:56.608] [INFO] ci - ✓ node version
+[2026-05-11T15:30:56.608] [INFO] ci -  xcode 9.0 - not found
+[2026-05-11T15:30:56.609] [DEBUG] ~~~~ - Close Current Watcher
+[2026-05-11T15:30:56.613] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:56.614] [INFO] ~~~~ - Validating project structure using validator template: '202305.0'
+[2026-05-11T15:30:56.648] [INFO] ~~~~ - Validating project themes: C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:56.649] [INFO] ~~~~ - Project dir:  C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:56.649] [INFO] ~~~~ - Theme dir, size:  C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\themes\defaultTheme 20
+[2026-05-11T15:30:56.649] [DEBUG] ~~~~ - skip read constants
+[2026-05-11T15:30:56.650] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2026-05-11T15:30:56.650] [INFO] ~~~~ - 
+Project dir:  C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1 
+No of uniq skin ids:  0
+[2026-05-11T15:30:56.650] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2026-05-11T15:30:56.650] [INFO] ci - Validation of project WEBAPP1 successful.
+[2026-05-11T15:30:56.653] [INFO] ci - Porting of project WEBAPP1 successful.
+[2026-05-11T15:30:56.654] [INFO] ci - andtargetsdkkey selected is undefined
+[2026-05-11T15:30:56.654] [INFO] ci - andweartargetsdkkey selected is undefined
+[2026-05-11T15:30:56.655] [DEBUG] ci -  Done... 
+
+[2026-05-11T15:30:56.655] [DEBUG] ci - ⚀ Loading ... C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\projectProperties.json
+[2026-05-11T15:30:56.656] [DEBUG] ci - ⚀ Loading ... C:\Users\k.venkatesh\Visualizer\workspace\bundles\com.kony.studio.viz.core.win64\konywebstudio\kbuild\config\HeadlessBuild-Default.json
+[2026-05-11T15:30:56.657] [DEBUG] ci - ⚀ Loading ... C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\HeadlessBuild.properties
+[2026-05-11T15:30:56.658] [INFO] ci - Cleaning the temp Folder...
+[2026-05-11T15:30:56.766] [INFO] ci - Cleaning binaries location...
+[2026-05-11T15:30:56.768] [INFO] ci - C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\binaries\desktopweb deleted.
+[2026-05-11T15:30:56.768] [INFO] ci - Cleaning webapps location...
+[2026-05-11T15:30:56.849] [INFO] ci - Extracting build.zip
+[2026-05-11T15:30:56.983] [INFO] ci - Extracted to C:\Users\k.venkatesh\Visualizer\workspace\temp\WEBAPP1
+[2026-05-11T15:30:56.983] [ERROR] ci - desktopweb plugin is not avaliable or disabled
+[2026-05-11T15:30:57.115] [DEBUG] ci - Upgrade native apis...
+[2026-05-11T15:30:57.116] [INFO] ci - NFIs in your project are upto date. No upgrade required.
+[2026-05-11T15:30:57.120] [INFO] ci - ‼︎ Service config is not provided. Skip setting service doc.
+[2026-05-11T15:30:57.121] [INFO] ci - Copying sdk files.
+[2026-05-11T15:30:57.123] [INFO] ci - SDK file is copied.
+[2026-05-11T15:30:57.123] [INFO] ci - C:\Users\k.venkatesh\Visualizer\workspace\bundles\com.kony.mobile.fabric.client.sdk
+[2026-05-11T15:30:57.124] [INFO] ci - Fabric plugin version is 202601.0.0.v202510291253
+[2026-05-11T15:30:57.153] [INFO] ci - C:\Users\k.venkatesh\Visualizer\workspace\bundles\com.kony.mobile.fabric.client.sdk
+[2026-05-11T15:30:57.155] [INFO] ci - Fabric plugin version is 202601.0.0.v202510291253
+[2026-05-11T15:30:57.182] [INFO] ci - C:\Users\k.venkatesh\Visualizer\workspace\bundles\com.kony.mobile.fabric.client.sdk
+[2026-05-11T15:30:57.183] [INFO] ci - Fabric plugin version is 202601.0.0.v202510291253
+[2026-05-11T15:30:57.200] [INFO] ci - windowsofflineobjects_ffi.zip is not found in SDK plugin.
+[2026-05-11T15:30:57.200] [INFO] ci - C:\Users\k.venkatesh\Visualizer\workspace\bundles\com.kony.mobile.fabric.client.sdk
+[2026-05-11T15:30:57.202] [INFO] ci - Fabric plugin version is 202601.0.0.v202510291253
+[2026-05-11T15:30:57.202] [INFO] ci - Start of command line application build.
+[2026-05-11T15:30:57.203] [INFO] ci - Start of Visulaizer Codegen.
+[2026-05-11T15:30:57.203] [INFO] ci - C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:57.203] [INFO] ci - Commandline build start time1778493657203
+[2026-05-11T15:30:57.204] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2026-05-11T15:30:57.245] [INFO] ~~~~ - Validating and Repairing the project structure: C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:57.247] [INFO] ~~~~ - Validating project structure using validator template: '202305.0'
+[2026-05-11T15:30:57.279] [INFO] ~~~~ - Validating project themes: C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:57.279] [INFO] ~~~~ - Project dir:  C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1
+[2026-05-11T15:30:57.280] [INFO] ~~~~ - Theme dir, size:  C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\themes\defaultTheme 20
+[2026-05-11T15:30:57.280] [DEBUG] ~~~~ - skip read constants
+[2026-05-11T15:30:57.280] [DEBUG] ~~~~ -  ::::::::: Custom themes: []
+[2026-05-11T15:30:57.280] [INFO] ~~~~ - 
+Project dir:  C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1 
+No of uniq skin ids:  0
+[2026-05-11T15:30:57.280] [INFO] ~~~~ - 
+Skin kuid issues:  0 
+Theme skin issues:  0 
+Widget skin issues:  0 
+Widget psp skin issues:  0 
+Widget disabled skin issues: 0
+[2026-05-11T15:30:57.285] [DEBUG] ~~~~ - [BUILD] Codegen starts. StartTime: 1778493657285
+[2026-05-11T15:30:57.336] [DEBUG] ~~~~ - [ 'defaultTheme' ]
+[2026-05-11T15:30:57.360] [DEBUG] ~~~~ - Saving forms controller actions for channel: desktop
+[2026-05-11T15:30:57.374] [DEBUG] ~~~~ - Saving templates controller actions for channel: desktop and type:  maps
+[2026-05-11T15:30:57.374] [DEBUG] ~~~~ - Saving templates controller actions for channel: desktop and type:  segments
+[2026-05-11T15:30:57.391] [DEBUG] ~~~~ - Saving user widgets controller actions
+[2026-05-11T15:30:57.418] [INFO] ~~~~ - <---Codegeneration Started--->
+[2026-05-11T15:30:57.436] [DEBUG] ~~~~ - NO SUCH DIRECTORY TO CLEAN: C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1\desktopweb
+[2026-05-11T15:30:57.439] [DEBUG] ~~~~ - [BUILD] Code generation for desktopweb
+[2026-05-11T15:30:57.440] [DEBUG] ~~~~ - Scripts output directory C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1\desktopweb\appjs
+[2026-05-11T15:30:57.446] [INFO] ~~~~ - [BUILD] UserWidget code generation start for desktopweb for the app WEBAPP1
+[2026-05-11T15:30:57.447] [INFO] ~~~~ - [BUILD] UserWidget code generation end for desktopweb, from the app : WEBAPP1. Time taken :  1.0174999999999272 ms
+[2026-05-11T15:30:57.470] [INFO] ~~~~ - [BUILD] Code generation completed for segments in platform desktopweb for project WEBAPP1. No.of templates : 2 
+[2026-05-11T15:30:57.470] [INFO] ~~~~ - [BUILD] Template code generation end for desktopweb. Time taken 22.68459999999959 (ms)
+[2026-05-11T15:30:57.470] [INFO] ~~~~ - [BUILD] Form code generation start for the app: WEBAPP1, in desktopweb platform.
+[2026-05-11T15:30:57.479] [INFO] ~~~~ - [BUILD] Code generation completed for forms in platform desktopweb for project WEBAPP1. No. of forms : 1
+[2026-05-11T15:30:57.479] [INFO] ~~~~ - [BUILD] Form code generation end for the app: WEBAPP1, in desktopweb platform. Time taken : 9.317700000000514 (ms)
+[2026-05-11T15:30:57.480] [INFO] ~~~~ - [BUILD] Controllers generation start for desktopweb for the app WEBAPP1
+[2026-05-11T15:30:57.481] [INFO] ~~~~ - Generating Form1Controller for platform desktopweb
+[2026-05-11T15:30:57.486] [INFO] ~~~~ - Generating flxSampleRowTemplateController for platform desktopweb
+[2026-05-11T15:30:57.490] [INFO] ~~~~ - Generating flxSectionHeaderTemplateController for platform desktopweb
+[2026-05-11T15:30:57.492] [INFO] ~~~~ - [BUILD] Controllers code generation end for desktopweb, from the app : WEBAPP1. Time taken :  12.080299999999625 ms
+[2026-05-11T15:30:57.595] [INFO] ~~~~ - [BUILD] CSS code generation start for the project WEBAPP1
+[2026-05-11T15:30:58.610] [DEBUG] ~~~~ - Result of CSS generation: WEB PLATFORM INFO:: CSS codegen started .....
+
+Generated (default) theme in :: 4.502ms
+
+WEB PLATFORM INFO:: Total time taken for CSS codegen is :: 10.105ms
+
+[2026-05-11T15:30:58.610] [INFO] ~~~~ - [BUILD] CSS code generation end for the project WEBAPP1. Time taken : 1015.0274 ms.
+[2026-05-11T15:30:58.610] [INFO] ~~~~ - [BUILD] Index HTML code generation start
+[2026-05-11T15:30:59.797] [DEBUG] ~~~~ - Result of HTML generation: WEB PLATFORM INFO:: HTML codegen started .....
+
+Successfully added empty title.
+Successfully added viewport meta tag with zoom disabled.
+Successfully added <IFRAME> buster script.
+Successfully generated <HEAD> content.
+
+Successfully added appcache events.
+Successfully added noscript message.
+Successfully generated <BODY> content.
+
+Successfully created meta.json file.
+Successfully created kony.manifest file.
+Successfully created index.html file.
+
+WEB PLATFORM INFO:: Total time taken for HTML codegen is :: 156.137ms
+
+[2026-05-11T15:30:59.798] [INFO] ~~~~ - [BUILD] Index HTML code generation end. Time taken : 1187.4231 ms.
+[2026-05-11T15:30:59.798] [INFO] ~~~~ - Copying HTML/CSS/manifest C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1\spageneratedfiles\desktopweb C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1\desktopweb
+[2026-05-11T15:30:59.809] [DEBUG] ~~~~ - [BUILD] Codegen ends. endTime: 1778493659809. Time taken (in ms) : 2524
+[2026-05-11T15:30:59.809] [DEBUG] ~~~~ - [BUILD] Archiving starts. Start time: 1778493659809
+[2026-05-11T15:30:59.811] [DEBUG] ~~~~ - Web Directories created @ C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1\desktopweb
+[2026-05-11T15:30:59.812] [DEBUG] ~~~~ - Directories created @ C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1
+[2026-05-11T15:30:59.812] [DEBUG] ~~~~ - Populating project WEBAPP1
+[2026-05-11T15:30:59.813] [DEBUG] ~~~~ - USING IDE EVENTS :: true
+[2026-05-11T15:30:59.813] [DEBUG] ~~~~ - Populate Completed
+[2026-05-11T15:30:59.813] [DEBUG] ~~~~ - Building for desktopweb
+[2026-05-11T15:30:59.813] [DEBUG] ~~~~ - Populating WEB project WEBAPP1
+[2026-05-11T15:30:59.813] [DEBUG] ~~~~ - Populating actions for  [ 'desktopweb' ]
+[2026-05-11T15:30:59.823] [DEBUG] ~~~~ - Compacting...  
+[2026-05-11T15:30:59.824] [DEBUG] ~~~~ - SPA require file list 'applicationController','flxSampleRowTemplate','flxSectionHeaderTemplate','flxSampleRowTemplateController','flxSectionHeaderTemplateController','navigation/NavigationModel','navigation/NavigationController'
+[2026-05-11T15:30:59.826] [DEBUG] ~~~~ - SPA individual file list path:  C:\Users\k.venkatesh\Visualizer\workspace\.webapps\WEBAPP1\desktopweb\appjs\require\spaindividualfilelist.js
+[2026-05-11T15:30:59.826] [DEBUG] ~~~~ - SPA individual file list content:  Form1.js,Form1Controller.js
+[2026-05-11T15:30:59.826] [DEBUG] ~~~~ - SPA Populated successfully
+[2026-05-11T15:30:59.826] [INFO] ~~~~ - Code generation for project 'WEBAPP1' completed.
+[2026-05-11T15:30:59.826] [DEBUG] ~~~~ - Codegen Status :  { desktopweb: 'success' }
+[2026-05-11T15:30:59.870] [DEBUG] ~~~~ - [BUILD] Archiving ends. End time: 1778493659870. Time taken (in ms) : 61
+[2026-05-11T15:30:59.870] [INFO] ci - [ 'desktopweb' ]
+[2026-05-11T15:30:59.872] [INFO] ci - PropertyMapper : Start of mapping
+[2026-05-11T15:30:59.887] [INFO] ci - Loaded common properties. 
+[2026-05-11T15:30:59.887] [INFO] ci - Platform:spa , build status : STARTED
+[2026-05-11T15:30:59.890] [INFO] ci - PropertyMapper : Start of mapping
+[2026-05-11T15:30:59.893] [INFO] ci - Loaded properties. spa
+[2026-05-11T15:30:59.893] [INFO] ci - Start of build for platform : spa
+[2026-05-11T15:30:59.893] [INFO] ci - APPFOLDER C:\Users\k.venkatesh\Visualizer\workspace\temp\WEBAPP1
+[2026-05-11T15:30:59.893] [INFO] ci -  propFilePath C:\Users\k.venkatesh\Visualizer\workspace\temp\WEBAPP1\build\spabuild.properties
+[2026-05-11T15:30:59.893] [INFO] ci - Platform:spa , build status : INPROGRESS
+[2026-05-11T15:31:02.023] [DEBUG] ci - STDOUT: WEB PLATFORM INFO:: Project build started .....
+
+Preparing APPJS 
+Appjs Directory Created
+sparequirefileslist.js not found in default folder
+[8189949] Successfully generated kvmodules in : : 56.358ms
+Preparing app.js 
+[8784344] Concatenated (1) files at (C:/Users/k.venkatesh/Visualizer/workspace/temp/WEBAPP1/jsoutput/desktopweb/appjs/app.js) in :: 3.838ms
+[8828666] Concatenated (1) files at (C:/Users/k.venkatesh/Visualizer/workspace/temp/WEBAPP1/jsoutput/desktopweb/appjs/app.js) in :: 1.572ms
+[8850341] Concatenated (5) files at (C:/Users/k.venkatesh/Visualizer/workspace/temp/WEBAPP1/jsoutput/desktopweb/appjs/app.js) in :: 2.579ms
+JSSrc to AppJS Concatination successful.
+Succesfully generated app.js
+Minifying AppJs 
+Succesfully Created APPJS
+[89789] Compressed (C:/Users/k.venkatesh/Visualizer/workspace/webapps/WEBAPP1/temp/desktopweb/appjs) directory at (C:/Users/k.venkatesh/Visualizer/workspace/webapps/WEBAPP1/temp/desktopweb/appjs) directory in :: 407.82ms
+Successfully Minified AppJS
+Copying of generated themes starts, with parameters << themes:"default", minify:true, libmode:"css" >>
+Succesfully created konydesktop.css
+[1311387] Compressed (C:/Users/k.venkatesh/Visualizer/workspace/webapps/WEBAPP1/temp/desktopweb/themes/default/theme.css) file at (C:/Users/k.venkatesh/Visualizer/workspace/webapps/WEBAPP1/temp/desktopweb/themes/default/theme.css) file in :: 2.129ms
+Successfully copied generated themes in :: 7.641ms
+Copying of framework assets starts, with parameters << build:"release", automation:false, libmode:"css" >>
+Successfully copied framework assets in :: 70.186ms
+Successfully copied kony.manifest file in :: 4.043ms
+Successfully copied meta.json file in :: 4.252ms
+Successfully copied robots.txt
+Successfully copied version.html
+Successfully copied genericerror.jsp
+prepareWebapp  ###
+Populating webapp
+No Worker Threads present
+Copying of web assets starts, with parameters >>
+Successfully copied web assets in :: 3.046ms
+Copying of custom widgets assets starts, with parameters << Minify:true >>
+No jslib/tparty libraries folder exist
+Failed in copying custom widgets assets.
+Copying of Resources starts
+Copying of images starts
+No jslib/tparty widgets folder exist
+No Vector Images Folder exist
+No Build Images Folder exist
+Successfully copied images in :: 64.336ms
+Copying of fonts starts, with parameters << libmode:"css" >>
+Copying of fonts completed in :: 3.164ms
+Copying of i18n files starts
+Successfully copied i18n files in :: 1.667ms
+populateWebapp  ###
+Instrumentation skipped as automation and code coverage are disabled.
+instrumentFiles ###
+Archived folder(s) in : 307.024ms
+Archive path : WEBAPP1.zip
+generateZip  ###
+WEB PLATFORM INFO:: Total time taken to built project is :: 1.102s
+
+[2026-05-11T15:31:02.023] [ERROR] ci - STDERR: 
+[2026-05-11T15:31:02.024] [INFO] ci - Platform:spa , build status : COMPLETED
+[2026-05-11T15:31:02.029] [INFO] ci - 
+---❏ Upload web archive ---
+
+[2026-05-11T15:31:02.029] [INFO] ci - AppUpload: Service config is not provided!
+[2026-05-11T15:31:02.029] [INFO] ci - ‼︎ Service config is not provided. Skip publish services.
+[2026-05-11T15:31:02.030] [INFO] ci - ‼︎ Service config is not provided. Skip setting service doc.
+[2026-05-11T15:31:02.032] [INFO] ci - Done!
+[2026-05-11T15:31:02.032] [INFO] ci - 
+
+----------------------------------------------------------------
+BUILD SUMMARY
+----------------------------------------------------------------
+desktopweb .................. COMPLETED [2.137 s]
+Upload Web Archive .......... Service config isn't set.
+Fabric App .................. Service config isn't set.
+Total time .................. 00:00:06.736
+Finished at ................. "2026-05-11T10:01:02.032Z"
+Dist ........................ C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\binaries
+Build summary file .......... C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\.cilogs\BuildResult.json
+----------------------------------------------------------------
+[2026-05-11T15:31:02.032] [INFO] ci - Binary successfully copied to C:\Users\k.venkatesh\Visualizer\workspace\WEBAPP1\binaries\desktopweb\WEBAPP1-release.zip

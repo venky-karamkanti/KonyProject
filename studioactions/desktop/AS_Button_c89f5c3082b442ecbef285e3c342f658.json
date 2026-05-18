@@ -1,0 +1,48 @@
+{
+    "AS_Button_c89f5c3082b442ecbef285e3c342f658": {
+        "id": "AS_Button_c89f5c3082b442ecbef285e3c342f658",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a4373e0e5f04434e867e834c2ce6c6ed"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_ece9681584734a5ba7abfb7afc93829e",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "name",
+            "isGlobal": false,
+            "valuetype": "expression",
+            "datatype": "string",
+            "value": "frmForm1.txtName.text"
+        }, {
+            "id": "SHOW_ALERT_f42ff3390fc449beb0eed9c52f516d4a",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "messageType": "expression",
+            "alertHandler": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

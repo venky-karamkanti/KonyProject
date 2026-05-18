@@ -1,0 +1,30 @@
+{
+    "AS_Button_g9301635410e4d2a9d352bf8d22e76d6": {
+        "id": "AS_Button_g9301635410e4d2a9d352bf8d22e76d6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a4373e0e5f04434e867e834c2ce6c6ed"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_c9cd8d7311d842e29c0d496845357238",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "Hello Venkatesh!! Well Come to Temenos India",
+            "messageType": "constant",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}
