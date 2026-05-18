@@ -116,3 +116,5 @@ testresources/Jasmine/\*.js
 # IQ Cop reports
 reports/
 
+# Ignore large jar files
+*.jar

@@ -1,5 +1,3 @@
-define({ 
-
- //Type your controller code here 
-
- });
+function test() {
+    alert("Feature1 Code");
+}
